@@ -41,3 +41,9 @@ print()
 print("Unique Values in 'region' Column:")
 print(df['region'].unique())
 print(df['region'].value_counts())
+
+print()
+#EXCERCISE 7: Select Columns
+new_df = df[['region', 'product', 'revenue']]
+print("New DataFrame with Selected Columns:")
+print(new_df.shape)
