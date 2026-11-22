@@ -35,3 +35,9 @@ df['per_unit'] = df['revenue'] / df['quantity']
 print("DataFrame with New Column:")
 print(df.head())
 print(df['per_unit'].mean())
+
+print()
+#EXCERCISE 6: Unique Values
+print("Unique Values in 'region' Column:")
+print(df['region'].unique())
+print(df['region'].value_counts())
