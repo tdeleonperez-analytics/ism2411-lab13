@@ -47,3 +47,7 @@ print()
 new_df = df[['region', 'product', 'revenue']]
 print("New DataFrame with Selected Columns:")
 print(new_df.shape)
+
+print()
+#EXCERCISE 8: Save
+df.to_csv('data/explored.csv', index=False)
