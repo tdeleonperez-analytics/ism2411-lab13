@@ -1,3 +1,7 @@
+# ---SELF ASSESSMENT QUESTIONS ---
+#1) A boolean filter is a way to filter data in a DataFrame using True/False conditions.
+#2) df[revenue] is a single column selection, meaning it only brings back the 'revenue' column (Series). df[['revenue']] is a double bracket selection, meaning it brings back a ***DataFrame*** with the 'revenue' column, not a Series.
+#3) I can perform the same task for thousands of rows in Pandas, even when the data itself is not always the same. This saves me loads of time and effort, as I can write a single line of code to filter or manipulate large datasets instead of doing it manually.
 
 #EXCERCISE 1: Load It
 import pandas as pd
