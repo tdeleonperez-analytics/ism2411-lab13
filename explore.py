@@ -9,7 +9,12 @@ print(df.columns.tolist())
 print(df.dtypes)
 
 print()
-#EXCERCISE 2: Top 5 By Revenue
+#EXCERCISE 2: Filter By Region
 south = df[df['region'] == 'South']
 print(len(south))
 print(south.head())
+
+print()
+#EXCERCISE 3: Top 5 By Revenue
+top_5 = df.sort_values('revenue', ascending=False).head(5)
+print(top_5)
