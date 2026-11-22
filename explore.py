@@ -28,3 +28,10 @@ print("TWO CONDITION FILTER")
 big_south = df[(df['region']=='South') & (df['revenue']>1000)]
 print(len(big_south))
 print(big_south.head())
+
+print()
+#EXCERCISE 5: A New Column
+df['per_unit'] = df['revenue'] / df['quantity']
+print("DataFrame with New Column:")
+print(df.head())
+print(df['per_unit'].mean())
